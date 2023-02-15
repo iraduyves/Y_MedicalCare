@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./admin.css">
+    <title>ADMIN PORTAL</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-clinic-medical"></i>
+                        <div class="title">ADMIN PAGE</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="admin.html">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">HOME</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">DASHBOARD</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-stethoscope"></i>
+                        <div class="title">APPOINTMENTS</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="addNewDoctor.jsp">
+                        <i class="fas fa-stethoscope"></i>
+                        <div class="title"> ADD DOCTORS</div>
+                    </a>
+                </li>
+              <li>
+                    <a href="editUpdatedoctor.jsp">
+                        <i class="fas fa-stethoscope"></i>
+                        <div class="title"> MANAGE DOCTORS</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <a href="AdminLogout"> <div class="title">LOGOOUT</div></a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="search">
+                     <input type="text" name="search" placeholder="search here">
+                     <label for="search"><i class="fas fa-search"></i></label>
+                </div>
+                <div class="user">
+                <i class="fas fa-bell"></i>
+                    <img src="./doctor4.png" alt="">
+                    <a href="AdminLogout" class="btn">logout</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

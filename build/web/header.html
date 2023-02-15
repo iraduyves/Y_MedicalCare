@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg,#8cd9d0,#e9b6c6);
+}
+
+li {
+  float: left;
+  border-right:1px solid #333 ;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.jsp">Home</a></li>
+  <li><a href="addNewPatient.jsp">Add New Patient</a></li>
+  <li><a href="editDeleteList.jsp">Edit,Delete & List of Patient Details</a></li>
+    <li><a href="manageStock.jsp">Manage Stock</a></li>
+  <li><a href="requestForBlood.jsp">Appointment Requests </a></li>
+  <li><a href="requestCompleted.jsp">Appointment Completed</a></li>
+  <li style="float:right"><a href="logout">Logout</a></li>
+</ul>
+
+</body>
+</html>

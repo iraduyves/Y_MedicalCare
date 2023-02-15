@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/addNewDoctor.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/updatedoctor.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/appointment.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/logout.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/appointmentAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/editUpdatedoctor.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/addNewDoctorAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/admin.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/contactpage.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/addNewPatient.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/index_1.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/LoginUserDao.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/index.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/doctorLoginAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/deletedoctor.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/LoginUser.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/manageStock.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/updateDoctorAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/LoginDoctor.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/editDeleteList.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/landingpage.css</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/indexFormAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/LogoutUser.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/ConnectionProvider.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/userLogin.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/LoginAdmin.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/header.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/requestCompleted.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/src/java/project/AdminLogout.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/admin.css</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/DoctorLogin1.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/adminpage.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/requestForBloodDelete.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/adminheader.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/addNewPatientAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/requestForBlood.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/adminLogin.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/home.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/doctorLogin.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/adminLoginAction.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/javaproject/web/style.css</file>
+        </group>
+    </open-files>
+</project-private>

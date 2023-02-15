@@ -1,0 +1,153 @@
+<%@page import="java.sql.*"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="project.ConnectionProvider"%>
+<head>
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="./landingpage.css">
+<style>
+input[type="text"], input[type="password"], input[type="email"], select,input[type="number"]
+{
+    border: none;
+    background:silver;
+    height: 50px;
+    font-size: 16px;
+	padding:15px;
+	width:60%;	
+	border-radius: 25px;
+	margin-left:20%;
+}
+h2,h1
+{	
+	margin-left:40%;
+}
+hr
+{
+width:60%;
+color: green;
+size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    
+        <a href="#default" class="logo"><img class="logo" src="background.jpg.jfif"></a>
+        <div class="header-right">
+        <a class="active" href="index.jsp">Home</a>
+        <a href="#service">Service</a>
+        <a href="#about">About</a>
+        <a href="#doctors">Doctors</a>
+        <a href="appointment.jsp">BookAppointment</a> 
+        <a href="contactpage.jsp">Contact </a>
+        <a href="adminLogin.jsp">AdminLogin</a>
+        <a href="DoctorLogin1.jsp">DoctorLogin</a>
+  </div>
+</div>
+   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <%
+  String msg=request.getParameter("msg");
+  if("valid".equals(msg))
+  {
+  %>
+<center><font color="red" size="5">Successfully Registered</font></center>
+<% 
+  }
+  %>
+<%
+  if("invalid".equals(msg))
+  {
+  %>
+<center><font color="red" size="5">SomeThing Went Wrong ! Try Again</font></center>
+<% 
+  }
+  %>
+<%
+    int id=1;
+    try{
+         Connection con =ConnectionProvider.getCon();
+         Statement st=con.createStatement();
+         ResultSet rs=st.executeQuery("select max(id)from patients");
+         if(rs.first())
+         {
+             id=rs.getInt(1);
+              id=id+1;
+         }%>
+         <div class="container">
+             <h1 style="color:red;">Patient ID:<%out.println(id);%></h1>
+         </div>
+ <%   }
+    catch(Exception e)
+        {
+            out.println(""+e);
+        }
+%>
+  <br>    
+  <div class="container">
+  <form action="addNewPatientAction.jsp" method="post">
+        <input type="hidden" name="id" value="<%out.println(id);%>">
+        <h2>Patient ID</h2>
+        <input type="text" name="pid" placeholder="ID">
+        <hr>
+        <h2>Patient Fname</h2>
+        <input type="text" name="fname" placeholder="first name">
+        <hr>
+        <h2>Patient Gender</h2>
+        <select name="gender" >
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+         <h2>Patient Department</h2>
+        <select name="department" >
+            <option value="sugery">sugery</option>
+            <option value="pediatrics">pediatrics</option>
+            <option value="neaneulogy">neaneulogy</option>
+        </select>
+        <hr>
+        <h2>Blood group</h2>
+        <select name="bloodgroup" >
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="dont know">dont know</option>
+        </select>
+        <hr>
+        <h2> patient Age</h2>
+        <input type="text" name="age" placeholder="age ">
+        <hr>
+        <h2>Email</h2>
+        <input type="email" name="email" placeholder="email">
+        <hr>
+        <h2> patient Mobile Number</h2>
+        <input type="text" name="mobilenumber" placeholder="mobile number">
+        <hr>
+        <h2>Address</h2>
+        <input type="text" name="address" placeholder="address">
+        <hr>
+        <h2> password</h2>
+        <input type="text" name="password" placeholder="password ">
+        
+         <center><button type="submit" class="button">Save</button></center>
+    </form>
+</div>
+  <br>
+  <br>
+<h3><center>All Right Reserved @ YVES :: 2022  </center></h3>
+
+</body>
+</html>
+
