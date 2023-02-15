@@ -140,7 +140,7 @@ size: 20px;
         <input type="text" name="fname" placeholder="first name">
         <hr>
         <br>
-        <h2>Patients Department</h2>
+        <h2>Patient Departments</h2>
         <select name="department" >
             <option value="sugery">sugery</option>
             <option value="pediatrics">pediatrics</option>
