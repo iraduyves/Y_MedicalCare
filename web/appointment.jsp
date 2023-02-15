@@ -132,15 +132,15 @@ size: 20px;
   <div class="container">
     <form action="appointmentAction.jsp" method="post">
         <input type="hidden" name="id" value="<%out.println(id);%>">
-        <h2>Patient ID</h2>
+        <h2>Patients ID</h2>
         <input type="text" name="pid" placeholder="ID">
         <hr>
         <br>
-        <h2>Patient Name</h2>
+        <h2>Patients Name</h2>
         <input type="text" name="fname" placeholder="first name">
         <hr>
         <br>
-        <h2>Patient Department</h2>
+        <h2>Patients Department</h2>
         <select name="department" >
             <option value="sugery">sugery</option>
             <option value="pediatrics">pediatrics</option>
