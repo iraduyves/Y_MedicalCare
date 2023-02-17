@@ -132,25 +132,25 @@ size: 20px;
   <div class="container">
     <form action="appointmentAction.jsp" method="post">
         <input type="hidden" name="id" value="<%out.println(id);%>">
-        <h2>Patients ID</h2>
+        <h2>Patient's ID</h2>
         <input type="text" name="pid" placeholder="ID">
         <hr>
         <br>
-        <h2>Patients Name</h2>
+        <h2>Patient's Name</h2>
         <input type="text" name="fname" placeholder="first name">
         <hr>
         <br>
-        <h2>Patient Departments</h2>
+        <h2>Patient's Department</h2>
         <select name="department" >
             <option value="sugery">sugery</option>
             <option value="pediatrics">pediatrics</option>
             <option value="neaneulogy">neaneulogy</option>
         </select>
         <hr>
-         <h2>Appointment date </h2>
+         <h2>Appointment's date </h2>
         <input type="date" name="date" >
         <hr>
-        <h2>Appointment time </h2>
+        <h2>Appointment's time </h2>
         <select name="time" >
             <option value="7AM-7h30AM">7AM-7h30AM</option>
             <option value="8AM-8h30AM">8AM-8h30AM</option>
@@ -163,7 +163,7 @@ size: 20px;
         </select>
         <hr>
         <br>
-        <h2>Patient Blood group</h2>
+        <h2>Patient's Blood group</h2>
         <select name="bloodgroup" >
             <option value="A+">A+</option>
             <option value="A-">A-</option>
@@ -177,7 +177,7 @@ size: 20px;
         </select>
         <hr>
         <br>
-        <h2>Patient Email</h2>
+        <h2>Patient's Email</h2>
         <input type="email" name="email" placeholder="email">
         <hr>
         <br>
