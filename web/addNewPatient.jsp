@@ -98,7 +98,7 @@ width:60%;
             <option value="O-">O-</option>
             <option value="AB+">AB+</option>
             <option value="AB-">AB-</option>
-            <option value="dont know">dont know</option>
+            <option value="dont know">don't know</option>
         </select>
         <hr>
         <h2> patient's Age</h2>
