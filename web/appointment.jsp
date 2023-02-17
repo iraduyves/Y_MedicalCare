@@ -181,8 +181,8 @@ size: 20px;
         <input type="email" name="email" placeholder="email">
         <hr>
         <br>
-        <h2> patient Mobile Number</h2>
-        <input type="text" name="mobilenumber" placeholder="mobile number">
+        <h2> patient's Mobile Number</h2>
+        <input type="text" name="mobilenumber" placeholder="mobile numbers">
         <hr>
         
          <center><button type="submit" class="button">Save</button></center>
