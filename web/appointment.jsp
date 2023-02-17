@@ -143,7 +143,7 @@ size: 20px;
         <h2>Patient Departments</h2>
         <select name="department" >
             <option value="sugery">sugery</option>
-            <option value="pediatrics">pediatric</option>
+            <option value="pediatrics">pediatrics</option>
             <option value="neaneulogy">neaneulogy</option>
         </select>
         <hr>
