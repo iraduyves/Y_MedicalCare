@@ -101,13 +101,13 @@ width:60%;
             <option value="dont know">dont know</option>
         </select>
         <hr>
-        <h2> patient Age</h2>
+        <h2> patient's Age</h2>
         <input type="text" name="age" placeholder="age ">
         <hr>
         <h2>Email</h2>
         <input type="email" name="email" placeholder="email">
         <hr>
-        <h2> patient Mobile Number</h2>
+        <h2> patient's Mobile Number</h2>
         <input type="text" name="mobilenumber" placeholder="mobile number">
         <hr>
         <h2>Address</h2>
