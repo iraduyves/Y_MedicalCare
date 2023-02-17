@@ -123,7 +123,7 @@ width:60%;
 <br>
 <br>
 <br>
-<h3><center>All Right Reserved @ YVES :: 2022  </center></h3>
+<h3><center>All Rights Are Reserved @ YVES :: 2022  </center></h3>
 
 </body>
 </html>
