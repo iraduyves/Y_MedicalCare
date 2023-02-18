@@ -110,7 +110,7 @@ width:60%;
         <h2> patient's Mobile Number</h2>
         <input type="text" name="mobilenumber" placeholder="mobile number">
         <hr>
-        <h2>Address</h2>
+        <h2>Addres</h2>
         <input type="text" name="address" placeholder="address">
         <hr>
         <h2> password</h2>
