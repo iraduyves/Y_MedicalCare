@@ -108,13 +108,13 @@ width:60%;
         <input type="email" name="email" placeholder="email">
         <hr>
         <h2> patient's Mobile Number</h2>
-        <input type="text" name="mobilenumber" placeholder="mobile number">
+        <input type="text" name="mobilenumber" placeholder="mobile numbers">
         <hr>
         <h2>Address</h2>
-        <input type="text" name="address" placeholder="address">
+        <input type="text" name="address" placeholder="addres">
         <hr>
-        <h2> passwords</h2>
-        <input type="text" name="password" placeholder="password ">
+        <h2> password</h2>
+        <input type="text" name="password" placeholder="passwords ">
         
          <center><button type="submit" class="button">Save</button></center>
     </form>
