@@ -69,7 +69,7 @@ width:60%;
     <form action="addNewPatientAction.jsp" method="post">
         <input type="hidden" name="id" value="<%out.println(id);%>">
         <h2>Patient's ID</h2>
-        <input type="text" name="pid" placeholder="ID">
+        <input type="text" name="pid" placeholder="Your ID">
         <hr>
         <h2>Patient's Fname</h2>
         <input type="text" name="fname" placeholder="first names">
