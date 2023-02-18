@@ -72,9 +72,9 @@ width:60%;
         <input type="text" name="pid" placeholder="ID">
         <hr>
         <h2>Patient Fname</h2>
-        <input type="text" name="fname" placeholder="first name">
+        <input type="text" name="fname" placeholder="first names">
         <hr>
-        <h2>Patient Gender</h2>
+        <h2>Patient's Gender</h2>
         <select name="gender" >
             <option value="male">Male</option>
             <option value="female">Female</option>
