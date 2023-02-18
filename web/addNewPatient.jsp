@@ -80,14 +80,14 @@ width:60%;
             <option value="female">Female</option>
             <option value="others">Others</option>
         </select>
-         <h2>Patient Department</h2>
+         <h2>Patient's Department</h2>
         <select name="department" >
             <option value="sugery">sugery</option>
             <option value="pediatrics">pediatrics</option>
             <option value="neaneulogy">neaneulogy</option>
         </select>
         <hr>
-        <h2>Blood group</h2>
+        <h2>Blood's group</h2>
         <select name="bloodgroup" >
             <option value="A+">A+</option>
             <option value="A-">A-</option>
