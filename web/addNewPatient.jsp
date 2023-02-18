@@ -71,7 +71,7 @@ width:60%;
         <h2>Patient ID</h2>
         <input type="text" name="pid" placeholder="ID">
         <hr>
-        <h2>Patient;s Fname</h2>
+        <h2>Patient's Fname</h2>
         <input type="text" name="fname" placeholder="first names">
         <hr>
         <h2>Patient's Gender</h2>
